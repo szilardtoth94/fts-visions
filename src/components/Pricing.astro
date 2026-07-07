@@ -1,7 +1,56 @@
 ---
+// src/components/Pricing.astro
 export interface Props {
   t: any;
 }
+const { t } = Astro.props;
+const featureKeys = ['customDesign', 'mobileFriendly', 'contactForm', 'multilingual', 'productCatalog', 'adminPanel'] as const;
 ---
-
-<div id="pricing"></div>
+<section class="bg-gray-50 py-20 px-4" id="pricing">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{t.pricing.headline}</h2>
+      <p class="text-gray-600 text-lg">{t.pricing.subheadline}</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6 mb-8">
+      {t.pricing.packages.map((pkg: any, i: number) => (
+        <div class={`bg-white rounded-2xl shadow-sm border-2 p-8 flex flex-col ${i === 1 ? 'border-blue-600 relative' : 'border-gray-100'}`}>
+          {i === 1 && (
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-4 py-1 rounded-full">
+              POPULAR
+            </div>
+          )}
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
+          <div class="text-4xl font-bold text-blue-600 mb-1">{pkg.price}</div>
+          <div class="text-sm text-gray-500 mb-6">{pkg.pages}</div>
+          <ul class="space-y-3 mb-8 flex-1">
+            {featureKeys.map(key => (
+              <li class="flex items-center gap-2 text-sm">
+                <span class={pkg.features[key] ? 'text-green-500' : 'text-gray-300'}>
+                  {pkg.features[key] ? '✅' : '❌'}
+                </span>
+                <span class={pkg.features[key] ? 'text-gray-700' : 'text-gray-400'}>
+                  {t.pricing.featureLabels[key]}
+                </span>
+              </li>
+            ))}
+            <li class="flex items-center gap-2 text-sm border-t pt-3 mt-3">
+              <span class="text-blue-500">🔄</span>
+              <span class="text-gray-700">{t.pricing.maintenance}: {pkg.maintenance}</span>
+            </li>
+          </ul>
+          <a
+            href="#contact"
+            class={`text-center py-3 px-6 rounded-xl font-semibold transition-colors ${i === 1 ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+          >
+            {t.nav.cta} →
+          </a>
+        </div>
+      ))}
+    </div>
+    <div class="text-center space-y-2">
+      <p class="text-sm text-gray-500">{t.pricing.domainNote}</p>
+      <p class="text-sm text-gray-500">{t.pricing.referral}</p>
+    </div>
+  </div>
+</section>
