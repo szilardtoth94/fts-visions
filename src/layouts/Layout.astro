@@ -15,6 +15,9 @@ const { title, lang } = Astro.props;
     <meta name="description" content="FTS Visions — Custom websites for small businesses starting at €100" />
     <title>{title} | FTS Visions</title>
     <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
   </head>
   <body class="bg-white text-gray-900 font-sans">
     <slot />
