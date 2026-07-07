@@ -1,0 +1,22 @@
+---
+export interface Props {
+  title: string;
+  lang: string;
+}
+
+const { title, lang } = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FTS Visions — Custom websites for small businesses starting at €100" />
+    <title>{title} | FTS Visions</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <slot />
+  </body>
+</html>
