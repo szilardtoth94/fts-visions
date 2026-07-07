@@ -2,6 +2,21 @@
 export interface Props {
   t: any;
 }
+const { t } = Astro.props;
 ---
 
-<div id="problem"></div>
+<section class="bg-gray-50 py-20 px-4" id="services">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+      {t.problem.headline}
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      {t.problem.points.map((point: string) => (
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div class="text-4xl mb-4">⚠️</div>
+          <p class="text-gray-700 font-medium">{point}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
