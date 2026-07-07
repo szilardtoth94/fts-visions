@@ -1,7 +1,31 @@
 ---
+// src/components/About.astro
 export interface Props {
   t: any;
 }
+const { t } = Astro.props;
 ---
-
-<div id="about"></div>
+<section class="bg-white py-20 px-4" id="about">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{t.about.headline}</h2>
+      <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">{t.about.story}</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8 max-w-xl mx-auto">
+      {t.about.founders.map((founder: any, i: number) => (
+        <div class="text-center">
+          <div class="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4 overflow-hidden">
+            <img
+              src={i === 0 ? '/images/szilard.jpg' : '/images/andras.jpg'}
+              alt={founder.name}
+              class="w-full h-full object-cover"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg">{founder.name}</h3>
+          <p class="text-gray-500 text-sm">{founder.role}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
