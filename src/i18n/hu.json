@@ -1,0 +1,171 @@
+{
+  "lang": "hu",
+  "nav": {
+    "home": "Főoldal",
+    "services": "Szolgáltatások",
+    "portfolio": "Portfólió",
+    "about": "Rólunk",
+    "contact": "Kapcsolat",
+    "cta": "Kérd Weboldalad"
+  },
+  "hero": {
+    "headline": "Vállalkozásod Megérdemli, Hogy Megtalálják Online",
+    "subheadline": "Személyre szabott weboldalak kis vállalkozásoknak — már €100-tól. Neked készítve.",
+    "cta": "Kérd Weboldalad Ma",
+    "support": "Éves karbantartás már €100/évtől. Rejtett költségek nélkül."
+  },
+  "problem": {
+    "headline": "Versenytársaid Már Online Vannak. Te?",
+    "points": [
+      "Az emberek online keresnek mielőtt bármely üzletet felkeresnek",
+      "Weboldal nélkül = bizalom nélkül = ügyfelek nélkül",
+      "Minden nap pénzt veszítesz amíg láthatatlan vagy online"
+    ]
+  },
+  "solution": {
+    "headline": "Megépítjük Digitális Víziódat — Gyorsan, Megfizethető Áron, Személyesen",
+    "intro": "Az FTS Visionsnél személyre szabott weboldalakat készítünk kis vállalkozásoknak, akik online szeretnének növekedni.",
+    "points": [
+      "Egyedi dizájn — a te vállalkozásod köré építve, nem sablon",
+      "Többnyelvű — román, magyar vagy angol",
+      "Admin felület — termékeket bármikor hozzáadhatsz vagy törölhetsz",
+      "Gyors átadás — weboldalad napok alatt élesben, nem hónapok múlva",
+      "Éves karbantartás — mi fenntartjuk, te az üzletedre koncentrálsz"
+    ]
+  },
+  "pricing": {
+    "headline": "Egyszerű, Átlátható Árak",
+    "subheadline": "Nincsenek meglepetések. Nincsenek rejtett díjak.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "€100",
+        "maintenance": "€100/év",
+        "pages": "1 oldal",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": false,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Standard",
+        "price": "€200",
+        "maintenance": "€120/év",
+        "pages": "Legfeljebb 5 oldal",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Business",
+        "price": "€300",
+        "maintenance": "€150/év",
+        "pages": "Legfeljebb 10 oldal",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": true
+        }
+      }
+    ],
+    "featureLabels": {
+      "customDesign": "Egyedi dizájn",
+      "mobileFriendly": "Mobilbarát",
+      "contactForm": "Kapcsolatfelvételi űrlap",
+      "multilingual": "Többnyelvű",
+      "productCatalog": "Termékkatalógus",
+      "adminPanel": "Admin felület"
+    },
+    "maintenance": "Éves karbantartás",
+    "domainNote": "⚠️ A domain név nem tartozik bele — külön vásárlandó (~€10-15/év). Segítünk kiválasztani és beállítani.",
+    "referral": "🎁 Ajánlj egy ismerőst és kapj €20 kedvezményt a következő éves díjból."
+  },
+  "portfolio": {
+    "headline": "Munkáink Önmagukért Beszélnek",
+    "subheadline": "Minden általunk épített weboldal egyedi — az ügyfél vállalkozása köré tervezve, nem sablon.",
+    "sites": [
+      {
+        "title": "Esküvői Oldal",
+        "description": "Fotó feltöltési galéria pároknak",
+        "url": "#",
+        "cta": "Weboldal Megtekintése"
+      },
+      {
+        "title": "Nyelvtanár",
+        "description": "Professzionális oktatói weboldal",
+        "url": "#",
+        "cta": "Weboldal Megtekintése"
+      },
+      {
+        "title": "A Te Vállalkozásod",
+        "description": "A te vállalkozásod is itt lehetne",
+        "url": "#contact",
+        "cta": "Kérd a Tiédet"
+      }
+    ],
+    "tagline": "Csatlakozz növekvő ügyféllistánkhoz. Minden weboldalt gondosan építünk, gyorsan szállítunk és karbantartunk, hogy soha ne kelljen aggódnod."
+  },
+  "howItWorks": {
+    "headline": "Az Online Jelenlét Soha Nem Volt Ilyen Egyszerű",
+    "steps": [
+      {
+        "icon": "📞",
+        "title": "Lépj Kapcsolatba",
+        "description": "Mesélj vállalkozásodról és igényeidről. Ingyenes konzultáció."
+      },
+      {
+        "icon": "🎨",
+        "title": "Mi Megépítjük",
+        "description": "Napok alatt megtervezzük egyedi weboldalad — te átnézed és jóváhagyod."
+      },
+      {
+        "icon": "🚀",
+        "title": "Élesítés",
+        "description": "Weboldalad élesben van és az ügyfelek megtalálnak online."
+      }
+    ],
+    "timeline": "⏱️ Az első kapcsolatfelvételtől az éles weboldalig — akár 7 nap alatt.",
+    "cta": "Kezdd Most — Az Egyeztetés Ingyenes"
+  },
+  "about": {
+    "headline": "Két Család. Egy Vízió.",
+    "story": "Az FTS Visionst Szilard Toth és Andras Fodor alapította — két romániai barát, akik hisznek abban, hogy minden kis vállalkozás megérdemel egy professzionális online jelenlétet, függetlenül a büdzsétől. Apák, vállalkozók és alkotók vagyunk. Az FTS Visions név családjaink kezdőbetűit hordozza — és azt a víziót, amelyet az általunk kiszolgált vállalkozásokkal kapcsolatban táplálunk. Beszélünk románul, magyarul és angolul — hogy a saját nyelvén szolgálhassuk vállalkozásodat.",
+    "founders": [
+      { "name": "Szilard Toth", "role": "Társalapító & Web Developer" },
+      { "name": "Andras Fodor", "role": "Társalapító & Web Developer" }
+    ]
+  },
+  "contact": {
+    "headline": "Készen Állsz, Hogy Vállalkozásod Online Legyen?",
+    "subheadline": "Lépj kapcsolatba ma — ingyenes konzultáció, kötelezettség nélkül.",
+    "form": {
+      "name": "Neved",
+      "business": "Vállalkozás Neve",
+      "email": "Email Cím",
+      "message": "Mesélj vállalkozásodról",
+      "submit": "Üzenet Küldése"
+    },
+    "whatsapp": {
+      "label": "Inkább chatelni szeretnél?",
+      "description": "Írj nekünk közvetlenül WhatsAppon — gyorsan válaszolunk.",
+      "cta": "WhatsApp Üzenet"
+    },
+    "email": "hello@ftsvisions.com"
+  },
+  "footer": {
+    "tagline": "Fodor & Toth | Románia",
+    "languages": "Román · Magyar · Angol"
+  }
+}

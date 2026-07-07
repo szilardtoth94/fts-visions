@@ -1,0 +1,171 @@
+{
+  "lang": "ro",
+  "nav": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "portfolio": "Portofoliu",
+    "about": "Despre Noi",
+    "contact": "Contact",
+    "cta": "Obține Site-ul Tău"
+  },
+  "hero": {
+    "headline": "Afacerea Ta Merită Să Fie Găsită Online",
+    "subheadline": "Site-uri personalizate pentru afaceri mici — de la doar €100. Creat special pentru tine.",
+    "cta": "Obține Site-ul Tău Astăzi",
+    "support": "Mentenanță anuală de la doar €100/an. Fără costuri ascunse."
+  },
+  "problem": {
+    "headline": "Concurenții Tăi Sunt Deja Online. Tu?",
+    "points": [
+      "Oamenii caută online înainte de a vizita orice afacere",
+      "Fără site = fără încredere = fără clienți",
+      "Pierzi bani în fiecare zi în care ești invizibil online"
+    ]
+  },
+  "solution": {
+    "headline": "Îți Construim Viziunea Digitală — Rapid, Accesibil, Personal",
+    "intro": "La FTS Visions, creăm site-uri personalizate pentru afaceri mici care vor să crească online fără costuri mari.",
+    "points": [
+      "Design personalizat — construit în jurul afacerii tale, nu un șablon",
+      "Multilingv — română, maghiară sau engleză",
+      "Panou de administrare — adaugă și șterge produse oricând",
+      "Livrare rapidă — site-ul tău live în zile, nu luni",
+      "Mentenanță anuală — noi îl menținem, tu te ocupi de afacere"
+    ]
+  },
+  "pricing": {
+    "headline": "Prețuri Simple și Transparente",
+    "subheadline": "Fără surprize. Fără costuri ascunse.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "€100",
+        "maintenance": "€100/an",
+        "pages": "1 pagină",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": false,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Standard",
+        "price": "€200",
+        "maintenance": "€120/an",
+        "pages": "Până la 5 pagini",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Business",
+        "price": "€300",
+        "maintenance": "€150/an",
+        "pages": "Până la 10 pagini",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": true
+        }
+      }
+    ],
+    "featureLabels": {
+      "customDesign": "Design personalizat",
+      "mobileFriendly": "Prietenos cu mobilul",
+      "contactForm": "Formular de contact",
+      "multilingual": "Multilingv",
+      "productCatalog": "Catalog produse",
+      "adminPanel": "Panou de administrare"
+    },
+    "maintenance": "Mentenanță anuală",
+    "domainNote": "⚠️ Domeniul nu este inclus — achiziționat separat (~€10-15/an). Vă ajutăm să îl alegeți și să îl configurați.",
+    "referral": "🎁 Recomandă un prieten și primești €20 reducere la următoarea taxă anuală."
+  },
+  "portfolio": {
+    "headline": "Munca Noastră Vorbește de la Sine",
+    "subheadline": "Fiecare site pe care îl construim este personalizat — proiectat în jurul afacerii clientului, nu un șablon.",
+    "sites": [
+      {
+        "title": "Pagină de Nuntă",
+        "description": "Galerie de încărcare foto pentru cupluri",
+        "url": "#",
+        "cta": "Vezi Site-ul"
+      },
+      {
+        "title": "Profesor de Limbi",
+        "description": "Site profesional pentru tutori",
+        "url": "#",
+        "cta": "Vezi Site-ul"
+      },
+      {
+        "title": "Afacerea Ta",
+        "description": "Afacerea ta ar putea fi aici",
+        "url": "#contact",
+        "cta": "Obține-l pe al Tău"
+      }
+    ],
+    "tagline": "Alătură-te listei noastre de clienți. Fiecare site este construit cu grijă, livrat rapid și menținut pentru ca tu să nu îți faci griji niciodată."
+  },
+  "howItWorks": {
+    "headline": "A Fi Online Nu A Fost Niciodată Atât de Simplu",
+    "steps": [
+      {
+        "icon": "📞",
+        "title": "Contactează-ne",
+        "description": "Spune-ne despre afacerea ta și ce ai nevoie. Consultație gratuită."
+      },
+      {
+        "icon": "🎨",
+        "title": "Noi Construim",
+        "description": "Proiectăm site-ul tău personalizat în zile — tu revizuiești și aprobi."
+      },
+      {
+        "icon": "🚀",
+        "title": "Lansare",
+        "description": "Site-ul tău este live și clienții te pot găsi online."
+      }
+    ],
+    "timeline": "⏱️ De la primul contact până la site live — în doar 7 zile.",
+    "cta": "Începe Acum — Consultația Este Gratuită"
+  },
+  "about": {
+    "headline": "Două Familii. O Viziune.",
+    "story": "FTS Visions a fost fondată de Szilard Toth și Andras Fodor — doi prieteni din România care cred că fiecare afacere mică merită o prezență online profesională, indiferent de buget. Suntem tați, antreprenori și constructori. Numele FTS Visions poartă inițialele familiilor noastre — și viziunea pe care o avem pentru afacerile pe care le servim. Vorbim română, maghiară și engleză — astfel încât să vă putem servi afacerea în limba în care vă simțiți cel mai confortabil.",
+    "founders": [
+      { "name": "Szilard Toth", "role": "Co-Fondator & Web Developer" },
+      { "name": "Andras Fodor", "role": "Co-Fondator & Web Developer" }
+    ]
+  },
+  "contact": {
+    "headline": "Ești Gata Să Îți Aduci Afacerea Online?",
+    "subheadline": "Contactează-ne astăzi — consultație gratuită, fără angajament.",
+    "form": {
+      "name": "Numele Tău",
+      "business": "Numele Afacerii",
+      "email": "Adresa de Email",
+      "message": "Spune-ne despre afacerea ta",
+      "submit": "Trimite Mesajul"
+    },
+    "whatsapp": {
+      "label": "Preferi să conversezi?",
+      "description": "Trimite-ne un mesaj direct pe WhatsApp — răspundem rapid.",
+      "cta": "Scrie pe WhatsApp"
+    },
+    "email": "hello@ftsvisions.com"
+  },
+  "footer": {
+    "tagline": "Fodor & Toth | România",
+    "languages": "Română · Maghiară · Engleză"
+  }
+}

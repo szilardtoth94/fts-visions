@@ -1,0 +1,171 @@
+{
+  "lang": "en",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get Your Website"
+  },
+  "hero": {
+    "headline": "Your Business Deserves to Be Found Online",
+    "subheadline": "Custom websites for small businesses — starting at just €100. Built for you.",
+    "cta": "Get Your Website Today",
+    "support": "Annual maintenance from only €100/year. No hidden costs."
+  },
+  "problem": {
+    "headline": "Your Competitors Are Already Online. Are You?",
+    "points": [
+      "People search online before visiting any business",
+      "No website = no trust = no customers",
+      "You're losing money every day you're invisible online"
+    ]
+  },
+  "solution": {
+    "headline": "We Build Your Digital Vision — Fast, Affordable, Personal",
+    "intro": "At FTS Visions, we create custom websites for small businesses that want to grow online without breaking the bank.",
+    "points": [
+      "Custom design — built around your business, not a template",
+      "Multilingual — Romanian, Hungarian, or English",
+      "Admin panel — add and remove products yourself, anytime",
+      "Fast delivery — your site live in days, not months",
+      "Annual maintenance — we keep it running so you don't have to"
+    ]
+  },
+  "pricing": {
+    "headline": "Simple, Transparent Pricing",
+    "subheadline": "No surprises. No hidden fees.",
+    "packages": [
+      {
+        "name": "Basic",
+        "price": "€100",
+        "maintenance": "€100/year",
+        "pages": "1 page",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": false,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Standard",
+        "price": "€200",
+        "maintenance": "€120/year",
+        "pages": "Up to 5 pages",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": false
+        }
+      },
+      {
+        "name": "Business",
+        "price": "€300",
+        "maintenance": "€150/year",
+        "pages": "Up to 10 pages",
+        "features": {
+          "customDesign": true,
+          "mobileFriendly": true,
+          "contactForm": true,
+          "multilingual": true,
+          "productCatalog": true,
+          "adminPanel": true
+        }
+      }
+    ],
+    "featureLabels": {
+      "customDesign": "Custom design",
+      "mobileFriendly": "Mobile friendly",
+      "contactForm": "Contact form",
+      "multilingual": "Multilingual",
+      "productCatalog": "Product catalog",
+      "adminPanel": "Admin panel"
+    },
+    "maintenance": "Annual maintenance",
+    "domainNote": "⚠️ Domain name not included — purchased separately (~€10-15/year). We help you choose and set it up.",
+    "referral": "🎁 Refer a friend and get €20 off your next annual maintenance fee."
+  },
+  "portfolio": {
+    "headline": "Our Work Speaks for Itself",
+    "subheadline": "Every website we build is custom — designed around the client's business, not a template.",
+    "sites": [
+      {
+        "title": "Wedding Page",
+        "description": "Photo upload gallery for couples",
+        "url": "#",
+        "cta": "View Site"
+      },
+      {
+        "title": "Language Teacher",
+        "description": "Professional tutor website",
+        "url": "#",
+        "cta": "View Site"
+      },
+      {
+        "title": "Your Business",
+        "description": "Your business could be here",
+        "url": "#contact",
+        "cta": "Get Yours"
+      }
+    ],
+    "tagline": "Join our growing list of clients. Every website is built with care, delivered fast, and maintained so you never have to worry."
+  },
+  "howItWorks": {
+    "headline": "Getting Online Has Never Been This Simple",
+    "steps": [
+      {
+        "icon": "📞",
+        "title": "Contact Us",
+        "description": "Tell us about your business and what you need. Free consultation."
+      },
+      {
+        "icon": "🎨",
+        "title": "We Build It",
+        "description": "We design your custom website in days — you review and approve."
+      },
+      {
+        "icon": "🚀",
+        "title": "Go Live",
+        "description": "Your website is live and customers can find you online."
+      }
+    ],
+    "timeline": "⏱️ From first contact to live website — as fast as 7 days.",
+    "cta": "Start Now — It's Free to Talk"
+  },
+  "about": {
+    "headline": "Two Families. One Vision.",
+    "story": "FTS Visions was founded by Szilard Toth and Andras Fodor — two friends from Romania who believe every small business deserves a professional online presence, regardless of budget. We are fathers, entrepreneurs, and builders. The name FTS Visions carries the initials of our families — and the vision we have for the businesses we serve. We speak Romanian, Hungarian, and English — so we can serve your business in the language you're most comfortable with.",
+    "founders": [
+      { "name": "Szilard Toth", "role": "Co-Founder & Web Developer" },
+      { "name": "Andras Fodor", "role": "Co-Founder & Web Developer" }
+    ]
+  },
+  "contact": {
+    "headline": "Ready to Get Your Business Online?",
+    "subheadline": "Contact us today — free consultation, no commitment.",
+    "form": {
+      "name": "Your Name",
+      "business": "Business Name",
+      "email": "Email Address",
+      "message": "Tell us about your business",
+      "submit": "Send Message"
+    },
+    "whatsapp": {
+      "label": "Prefer to chat?",
+      "description": "Message us directly on WhatsApp — we reply fast.",
+      "cta": "Chat on WhatsApp"
+    },
+    "email": "hello@ftsvisions.com"
+  },
+  "footer": {
+    "tagline": "Fodor & Toth | Romania",
+    "languages": "Romanian · Hungarian · English"
+  }
+}
