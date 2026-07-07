@@ -141,10 +141,10 @@
   },
   "about": {
     "headline": "Két Család. Egy Vízió.",
-    "story": "Az FTS Visionst Szilard Toth és Andras Fodor alapította — két romániai barát, akik hisznek abban, hogy minden kis vállalkozás megérdemel egy professzionális online jelenlétet, függetlenül a büdzsétől. Apák, vállalkozók és alkotók vagyunk. Az FTS Visions név családjaink kezdőbetűit hordozza — és azt a víziót, amelyet az általunk kiszolgált vállalkozásokkal kapcsolatban táplálunk. Beszélünk románul, magyarul és angolul — hogy a saját nyelvén szolgálhassuk vállalkozásodat.",
+    "story": "Az FTS Visionst Szilárd Tóth és András Fodor alapította — két barát, akik hisznek abban, hogy minden kis vállalkozás megérdemel egy professzionális online jelenlétet, függetlenül a büdzsétől. Apák, vállalkozók és alkotók vagyunk. Az FTS Visions név családjaink kezdőbetűit hordozza — és azt a víziót, amelyet az általunk kiszolgált vállalkozásokkal kapcsolatban táplálunk. Beszélünk románul, magyarul és angolul — hogy a saját nyelvén szolgálhassuk vállalkozásodat.",
     "founders": [
-      { "name": "Szilard Toth", "role": "Társalapító & Web Developer" },
-      { "name": "Andras Fodor", "role": "Társalapító & Web Developer" }
+      { "name": "Szilárd Tóth", "role": "Társalapító & Web Developer" },
+      { "name": "András Fodor", "role": "Társalapító & Web Developer" }
     ]
   },
   "contact": {

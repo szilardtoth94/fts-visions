@@ -141,10 +141,10 @@
   },
   "about": {
     "headline": "Two Families. One Vision.",
-    "story": "FTS Visions was founded by Szilard Toth and Andras Fodor — two friends from Romania who believe every small business deserves a professional online presence, regardless of budget. We are fathers, entrepreneurs, and builders. The name FTS Visions carries the initials of our families — and the vision we have for the businesses we serve. We speak Romanian, Hungarian, and English — so we can serve your business in the language you're most comfortable with.",
+    "story": "FTS Visions was founded by Szilárd Tóth and András Fodor — two friends who believe every small business deserves a professional online presence, regardless of budget. We are fathers, entrepreneurs, and builders. The name FTS Visions carries the initials of our families — and the vision we have for the businesses we serve. We speak Romanian, Hungarian, and English — so we can serve your business in the language you're most comfortable with.",
     "founders": [
-      { "name": "Szilard Toth", "role": "Co-Founder & Web Developer" },
-      { "name": "Andras Fodor", "role": "Co-Founder & Web Developer" }
+      { "name": "Szilárd Tóth", "role": "Co-Founder & Web Developer" },
+      { "name": "András Fodor", "role": "Co-Founder & Web Developer" }
     ]
   },
   "contact": {

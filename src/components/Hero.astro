@@ -6,8 +6,9 @@ export interface Props {
 }
 const { t, lang } = Astro.props;
 ---
-<section class="min-h-screen bg-gradient-to-br from-blue-700 to-blue-900 flex items-center text-white px-4">
-  <div class="max-w-4xl mx-auto text-center py-20">
+<section class="min-h-screen relative flex items-center text-white px-4" style="background-image: url('/images/hero-bg.jpg'); background-size: cover; background-position: center;">
+  <div class="absolute inset-0 bg-gradient-to-br from-blue-900/90 to-blue-700/80"></div>
+  <div class="relative max-w-4xl mx-auto text-center py-20">
     <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
       {t.hero.headline}
     </h1>
@@ -23,3 +24,4 @@ const { t, lang } = Astro.props;
     <p class="mt-6 text-blue-200 text-sm">{t.hero.support}</p>
   </div>
 </section>
+
