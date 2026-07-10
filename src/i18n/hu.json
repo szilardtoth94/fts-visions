@@ -89,8 +89,14 @@
       "adminPanel": "Admin felület"
     },
     "maintenance": "Éves karbantartás",
-    "domainNote": "⚠️ A domain név nem tartozik bele — külön vásárlandó (~€10-15/év). Segítünk kiválasztani és beállítani.",
-    "referral": "🎁 Ajánlj egy ismerőst és kapj €20 kedvezményt a következő éves díjból."
+    "domainNote": "⚠️ Nem tartalmazza a domaint (~€10-15/év), a tárhelyet és a céges e-mail címet — ezek szolgáltatói áron, külön vásárolhatók. Segítünk kiválasztani és beállítani. A beüzemelés külön díjazott.",
+    "referral": "🎁 Ajánlj egy ismerőst és kapj €20 kedvezményt a következő éves díjból.",
+    "custom": {
+      "name": "Egyedi Projekt",
+      "title": "Egyedi Projekted Van?",
+      "description": "Nagyobb weboldal, webshop vagy különleges funkciók kellenek? Beszéljük meg az igényeidet, és készítünk egy személyre szabott árajánlatot.",
+      "cta": "Kérj Egyedi Ajánlatot"
+    }
   },
   "portfolio": {
     "headline": "Munkáink Önmagukért Beszélnek",
@@ -162,7 +168,7 @@
       "description": "Írj nekünk közvetlenül WhatsAppon — gyorsan válaszolunk.",
       "cta": "WhatsApp Üzenet"
     },
-    "email": "ftsvisons@gmail.com"
+    "email": "office@ftsvisions.com"
   },
   "footer": {
     "tagline": "Fodor & Toth | Románia",

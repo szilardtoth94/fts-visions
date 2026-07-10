@@ -89,8 +89,14 @@
       "adminPanel": "Admin panel"
     },
     "maintenance": "Annual maintenance",
-    "domainNote": "⚠️ Domain name not included — purchased separately (~€10-15/year). We help you choose and set it up.",
-    "referral": "🎁 Refer a friend and get €20 off your next annual maintenance fee."
+    "domainNote": "⚠️ Doesn't include the domain (~€10-15/year), hosting, or business email — these are purchased separately at provider cost. We help you choose and set them up. Setup is an additional fee.",
+    "referral": "🎁 Refer a friend and get €20 off your next annual maintenance fee.",
+    "custom": {
+      "name": "Custom Project",
+      "title": "Have a Custom Project?",
+      "description": "Need a bigger website, an online store, or special features? Let's talk about your needs and put together a tailored quote.",
+      "cta": "Request a Custom Quote"
+    }
   },
   "portfolio": {
     "headline": "Our Work Speaks for Itself",
@@ -162,7 +168,7 @@
       "description": "Message us directly on WhatsApp — we reply fast.",
       "cta": "Chat on WhatsApp"
     },
-    "email": "ftsvisons@gmail.com"
+    "email": "office@ftsvisions.com"
   },
   "footer": {
     "tagline": "Fodor & Toth | Romania",

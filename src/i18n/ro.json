@@ -89,8 +89,14 @@
       "adminPanel": "Panou de administrare"
     },
     "maintenance": "Mentenanță anuală",
-    "domainNote": "⚠️ Domeniul nu este inclus — achiziționat separat (~€10-15/an). Vă ajutăm să îl alegeți și să îl configurați.",
-    "referral": "🎁 Recomandă un prieten și primești €20 reducere la următoarea taxă anuală."
+    "domainNote": "⚠️ Nu include domeniul (~€10-15/an), găzduirea sau emailul de afaceri — se achiziționează separat la prețul furnizorului. Vă ajutăm să le alegeți și să le configurați. Configurarea inițială presupune un cost suplimentar.",
+    "referral": "🎁 Recomandă un prieten și primești €20 reducere la următoarea taxă anuală.",
+    "custom": {
+      "name": "Proiect Personalizat",
+      "title": "Ai un Proiect Personalizat?",
+      "description": "Ai nevoie de un site mai mare, un magazin online sau funcționalități speciale? Hai să discutăm despre nevoile tale și să pregătim o ofertă personalizată.",
+      "cta": "Solicită o Ofertă Personalizată"
+    }
   },
   "portfolio": {
     "headline": "Munca Noastră Vorbește de la Sine",
@@ -162,7 +168,7 @@
       "description": "Trimite-ne un mesaj direct pe WhatsApp — răspundem rapid.",
       "cta": "Scrie pe WhatsApp"
     },
-    "email": "ftsvisons@gmail.com"
+    "email": "office@ftsvisions.com"
   },
   "footer": {
     "tagline": "Fodor & Toth | România",

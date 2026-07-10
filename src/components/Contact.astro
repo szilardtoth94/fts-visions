@@ -4,7 +4,7 @@ export interface Props {
   t: any;
 }
 const { t } = Astro.props;
-const FORMSPREE_ID = 'xaqgrern'; // Replace with real Formspree form ID
+const CONTACT_EMAIL = 'office@ftsvisions.com';
 const WHATSAPP_NUMBER = '40770931605'; // Replace with real number (no + prefix)
 ---
 <section class="bg-gray-50 py-20 px-4" id="contact">
@@ -15,7 +15,10 @@ const WHATSAPP_NUMBER = '40770931605'; // Replace with real number (no + prefix)
     </div>
     <div class="grid md:grid-cols-2 gap-10">
       <div class="bg-white rounded-2xl p-8 shadow-sm">
-        <form action={`https://formspree.io/f/${FORMSPREE_ID}`} method="POST" class="space-y-4">
+        <form action={`https://formsubmit.co/office@ftsvisions.com`} method="POST" class="space-y-4">
+          <input type="hidden" name="_subject" value="New contact form submission - FTS Visions" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-1">{t.contact.form.name}</label>
             <input
@@ -70,7 +73,7 @@ const WHATSAPP_NUMBER = '40770931605'; // Replace with real number (no + prefix)
             href={`https://wa.me/${WHATSAPP_NUMBER}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 bg-green-500 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-600 transition-colors"
+            class="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-800 transition-colors"
           >
             💬 {t.contact.whatsapp.cta}
           </a>

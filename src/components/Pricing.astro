@@ -29,7 +29,7 @@ const featureKeys = ['customDesign', 'mobileFriendly', 'contactForm', 'multiling
                 <span class={pkg.features[key] ? 'text-green-500' : 'text-gray-300'}>
                   {pkg.features[key] ? '✅' : '❌'}
                 </span>
-                <span class={pkg.features[key] ? 'text-gray-700' : 'text-gray-400'}>
+                <span class={pkg.features[key] ? 'text-gray-700' : 'text-gray-500'}>
                   {t.pricing.featureLabels[key]}
                 </span>
               </li>
@@ -39,6 +39,7 @@ const featureKeys = ['customDesign', 'mobileFriendly', 'contactForm', 'multiling
               <span class="text-gray-700">{t.pricing.maintenance}: {pkg.maintenance}</span>
             </li>
           </ul>
+          <p class="text-xs text-gray-500 mb-6 leading-relaxed">{t.pricing.domainNote}</p>
           <a
             href="#contact"
             class={`text-center py-3 px-6 rounded-xl font-semibold transition-colors ${i === 1 ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
@@ -48,8 +49,22 @@ const featureKeys = ['customDesign', 'mobileFriendly', 'contactForm', 'multiling
         </div>
       ))}
     </div>
+    <div class="bg-blue-50 border-2 border-dashed border-blue-200 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+      <div>
+        <span class="inline-block bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
+          {t.pricing.custom.name}
+        </span>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">{t.pricing.custom.title}</h3>
+        <p class="text-gray-600 max-w-xl">{t.pricing.custom.description}</p>
+      </div>
+      <a
+        href="#contact"
+        class="whitespace-nowrap bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors"
+      >
+        {t.pricing.custom.cta} →
+      </a>
+    </div>
     <div class="text-center space-y-2">
-      <p class="text-sm text-gray-500">{t.pricing.domainNote}</p>
       <p class="text-sm text-gray-500">{t.pricing.referral}</p>
     </div>
   </div>

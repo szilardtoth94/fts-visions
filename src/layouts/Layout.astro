@@ -1,10 +1,17 @@
 ---
 export interface Props {
   title: string;
+  description: string;
   lang: string;
 }
 
-const { title, lang } = Astro.props;
+const { title, description, lang } = Astro.props;
+
+const SITE_URL = 'https://ftsvisions.com';
+const OG_IMAGE = `${SITE_URL}/images/hero-bg.jpg`;
+const OG_LOCALES: Record<string, string> = { en: 'en_US', hu: 'hu_HU', ro: 'ro_RO' };
+const canonicalUrl = `${SITE_URL}/${lang}`;
+const fullTitle = `${title} | FTS Visions`;
 ---
 
 <!doctype html>
@@ -12,9 +19,40 @@ const { title, lang } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="FTS Visions — Custom websites for small businesses starting at €100" />
-    <title>{title} | FTS Visions</title>
+    <meta name="description" content={description} />
+    <title>{fullTitle}</title>
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en" href={`${SITE_URL}/en`} />
+    <link rel="alternate" hreflang="hu" href={`${SITE_URL}/hu`} />
+    <link rel="alternate" hreflang="ro" href={`${SITE_URL}/ro`} />
+    <link rel="alternate" hreflang="x-default" href={`${SITE_URL}/ro`} />
     <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={OG_IMAGE} />
+    <meta property="og:locale" content={OG_LOCALES[lang]} />
+    <meta property="og:site_name" content="FTS Visions" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={OG_IMAGE} />
+
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'FTS Visions',
+      url: SITE_URL,
+      logo: `${SITE_URL}/images/logo.svg`,
+      email: 'office@ftsvisions.com',
+      telephone: '+40770931605',
+      description: 'Custom websites for small businesses in Romania, starting at €100.',
+    })} />
+
     <style>
       html { scroll-behavior: smooth; }
     </style>
