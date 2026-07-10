@@ -1,5 +1,6 @@
 # build output
 dist/
+fts-visions-hostico.zip
 # generated types
 .astro/
 
