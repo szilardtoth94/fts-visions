@@ -10,9 +10,8 @@
   },
   "hero": {
     "headline": "Vállalkozásod Megérdemli, Hogy Megtalálják Online",
-    "subheadline": "Személyre szabott weboldalak kis vállalkozásoknak — már €100-tól. Neked készítve.",
-    "cta": "Kérd Weboldalad Ma",
-    "support": "Éves karbantartás már €100/évtől. Rejtett költségek nélkül."
+    "subheadline": "Személyre szabott weboldalak kis vállalkozásoknak — már €200-tól. Neked készítve.",
+    "cta": "Kérd Weboldalad Ma"
   },
   "problem": {
     "headline": "Versenytársaid Már Online Vannak. Te?",
@@ -35,11 +34,10 @@
   },
   "pricing": {
     "headline": "Egyszerű, Átlátható Árak",
-    "subheadline": "Nincsenek meglepetések. Nincsenek rejtett díjak.",
     "packages": [
       {
         "name": "Basic",
-        "price": "€100",
+        "price": "€200",
         "maintenance": "€100/év",
         "pages": "1 oldal",
         "features": {
@@ -53,7 +51,7 @@
       },
       {
         "name": "Standard",
-        "price": "€200",
+        "price": "€300",
         "maintenance": "€120/év",
         "pages": "Legfeljebb 5 oldal",
         "features": {
@@ -67,7 +65,7 @@
       },
       {
         "name": "Business",
-        "price": "€300",
+        "price": "€400",
         "maintenance": "€150/év",
         "pages": "Legfeljebb 10 oldal",
         "features": {

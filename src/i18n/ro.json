@@ -10,9 +10,8 @@
   },
   "hero": {
     "headline": "Afacerea Ta Merită Să Fie Găsită Online",
-    "subheadline": "Site-uri personalizate pentru afaceri mici — de la doar €100. Creat special pentru tine.",
-    "cta": "Obține Site-ul Tău Astăzi",
-    "support": "Mentenanță anuală de la doar €100/an. Fără costuri ascunse."
+    "subheadline": "Site-uri personalizate pentru afaceri mici — de la doar €200. Creat special pentru tine.",
+    "cta": "Obține Site-ul Tău Astăzi"
   },
   "problem": {
     "headline": "Concurenții Tăi Sunt Deja Online. Tu?",
@@ -35,11 +34,10 @@
   },
   "pricing": {
     "headline": "Prețuri Simple și Transparente",
-    "subheadline": "Fără surprize. Fără costuri ascunse.",
     "packages": [
       {
         "name": "Basic",
-        "price": "€100",
+        "price": "€200",
         "maintenance": "€100/an",
         "pages": "1 pagină",
         "features": {
@@ -53,7 +51,7 @@
       },
       {
         "name": "Standard",
-        "price": "€200",
+        "price": "€300",
         "maintenance": "€120/an",
         "pages": "Până la 5 pagini",
         "features": {
@@ -67,7 +65,7 @@
       },
       {
         "name": "Business",
-        "price": "€300",
+        "price": "€400",
         "maintenance": "€150/an",
         "pages": "Până la 10 pagini",
         "features": {

@@ -10,9 +10,8 @@
   },
   "hero": {
     "headline": "Your Business Deserves to Be Found Online",
-    "subheadline": "Custom websites for small businesses — starting at just €100. Built for you.",
-    "cta": "Get Your Website Today",
-    "support": "Annual maintenance from only €100/year. No hidden costs."
+    "subheadline": "Custom websites for small businesses — starting at just €200. Built for you.",
+    "cta": "Get Your Website Today"
   },
   "problem": {
     "headline": "Your Competitors Are Already Online. Are You?",
@@ -35,11 +34,10 @@
   },
   "pricing": {
     "headline": "Simple, Transparent Pricing",
-    "subheadline": "No surprises. No hidden fees.",
     "packages": [
       {
         "name": "Basic",
-        "price": "€100",
+        "price": "€200",
         "maintenance": "€100/year",
         "pages": "1 page",
         "features": {
@@ -53,7 +51,7 @@
       },
       {
         "name": "Standard",
-        "price": "€200",
+        "price": "€300",
         "maintenance": "€120/year",
         "pages": "Up to 5 pages",
         "features": {
@@ -67,7 +65,7 @@
       },
       {
         "name": "Business",
-        "price": "€300",
+        "price": "€400",
         "maintenance": "€150/year",
         "pages": "Up to 10 pages",
         "features": {
