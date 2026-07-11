@@ -25,6 +25,7 @@ const { t } = Astro.props;
             <p class="text-gray-600 text-sm mb-4 flex-1">{site.description}</p>
             <a
               href={site.url}
+              {...i !== 2 ? { target: '_blank', rel: 'noopener noreferrer' } : {}}
               class={`text-center py-2 px-4 rounded-lg text-sm font-semibold transition-colors ${i === 2 ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
             >
               {site.cta} →
