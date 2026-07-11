@@ -8,7 +8,7 @@ export interface Props {
 const { title, description, lang } = Astro.props;
 
 const SITE_URL = 'https://ftsvisions.com';
-const OG_IMAGE = `${SITE_URL}/images/hero-bg.jpg`;
+const OG_IMAGE = `${SITE_URL}/images/og-share.png`;
 const OG_LOCALES: Record<string, string> = { en: 'en_US', hu: 'hu_HU', ro: 'ro_RO' };
 const canonicalUrl = `${SITE_URL}/${lang}`;
 const fullTitle = `${title} | FTS Visions`;
@@ -34,9 +34,9 @@ const fullTitle = `${title} | FTS Visions`;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={OG_IMAGE} />
-    <meta property="og:image:width" content="1600" />
-    <meta property="og:image:height" content="1067" />
-    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="FTS Visions" />
     <meta property="og:locale" content={OG_LOCALES[lang]} />
     <meta property="og:site_name" content="FTS Visions" />
