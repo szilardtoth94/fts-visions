@@ -4,7 +4,6 @@
     "home": "Főoldal",
     "services": "Szolgáltatások",
     "portfolio": "Portfólió",
-    "about": "Rólunk",
     "contact": "Kapcsolat",
     "cta": "Kérd Weboldalad"
   },
@@ -143,14 +142,6 @@
     "timeline": "⏱️ Az első kapcsolatfelvételtől az éles weboldalig — akár 7 nap alatt.",
     "cta": "Kezdd Most — Az Egyeztetés Ingyenes"
   },
-  "about": {
-    "headline": "Két Család. Egy Vízió.",
-    "story": "Az FTS Visionst Szilárd Tóth és András Fodor alapította, akiket közös meggyőződés vezérel: minden kisvállalkozás megérdemli a professzionális online jelenlétet — a büdzséjétől függetlenül. Vállalkozóként és fejlesztőként azon dolgozunk, hogy ügyfeleink digitális jövőképét valóra váltsuk. Az FTS Visions név családjaink kezdőbetűit, egyben az általunk képviselt víziót testesíti meg. Románul, magyarul és angolul is teljes körű kiszolgálást biztosítunk, így vállalkozásodat a számodra legkényelmesebb nyelven támogatjuk.",
-    "founders": [
-      { "name": "Szilárd Tóth", "role": "Társalapító & Web Developer" },
-      { "name": "András Fodor", "role": "Társalapító & Web Developer" }
-    ]
-  },
   "contact": {
     "headline": "Készen Állsz, Hogy Vállalkozásod Online Legyen?",
     "subheadline": "Lépj kapcsolatba ma — ingyenes konzultáció, kötelezettség nélkül.",
@@ -169,7 +160,6 @@
     "email": "office@ftsvisions.com"
   },
   "footer": {
-    "tagline": "Fodor & Toth | Románia",
     "languages": "Román · Magyar · Angol"
   }
 }
